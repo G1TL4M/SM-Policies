@@ -707,6 +707,9 @@
             "[+2 Science] from every [Jungle]",
             "[+2 Culture] from every [Marsh]"
         ],
+        "civilopediaText": [
+            {"text": "This was directly inspired by 'Policy Mod'"}
+        ],
         "policies": [
             {
                 "name": "Clean Energy",
