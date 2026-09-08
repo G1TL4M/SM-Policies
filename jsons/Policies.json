@@ -730,7 +730,9 @@
                 "name": "Recycling",
                 "requires": "Clean Energy",
                 "uniques": [
-                    "[+1 Gold] from every [Recycling Center]"
+                    "[+10]% [Gold] from every [Recycling Center]",
+                    "Provides [2] [Aluminum]",
+                    "Provides [2] [Iron]",
                 ],
                 "row": 2,
                 "column": 1
