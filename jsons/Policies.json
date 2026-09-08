@@ -728,7 +728,7 @@
             },
             {
                 "name": "Recycling",
-                "requires": "Clean Energy",
+                "requires": ["Clean Energy"],
                 "uniques": [
                     "[+10]% [Gold] from every [Recycling Center]",
                     "Provides [2] [Aluminum]",
