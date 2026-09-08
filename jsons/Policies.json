@@ -508,7 +508,7 @@
             {
                 "name": "Naval Tradition2",
                 "uniques": [
-                    "[+50]% Production when constructing [Settler] units [in capital]",
+                    "[+50]% Production when constructing [Scout] units [in capital]",
                     "[+1] Movement <for [Scout] units>",
                     "[+1] Sight <for [Scout] units>"
                 ],
@@ -823,8 +823,7 @@
                 "name": "Ecotourism",
                 "requires": ["Nature Management"],
                 "uniques": [
-                    "[+100]% Yield from every [Natural Wonder]",
-                    "[+1 Happiness, +1 Gold] from every [Natural Wonder]",
+                    "[+1 Happiness, +2 Gold] from every [Natural Wonder]",
                     "[+2 Gold] from every [Atoll]",
                     "[+2 Gold] from every [Oasis]",
                     "[+2 Gold] from every [Lakes]"
@@ -844,9 +843,17 @@
                 "column": 5
             },
             {
-                "name": "Conservation Complete",
+                "name": "Conservation Complete", // The reason this is so powerful is because you've gotta not remove those features in order to benefit from it, which might make it a bit harder since you won't get some resources
                 "uniques": [
-                    "Free Great Person"
+                    "[+100]% Yield from every [Natural Wonder]",
+                    "[+2 Science, +2 Culture] from every [Forest]",
+                    "[+2 Culture, +2 Production] from every [Jungle]",
+                    "[+2 Production, +2 Science] from every [Marsh]",
+                    "[+1 Gold] from every [Water Mill]",
+                    "[+1 Gold] from every [Windmill]",
+                    "[+1 Gold] from every [Hydro Plant]",
+                    "[+1 Gold] from every [Nuclear Plant]",
+                    "[+1 Gold] from every [Solar Plant]"
                 ]
             }
         ]
