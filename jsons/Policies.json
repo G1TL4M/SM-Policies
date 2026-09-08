@@ -723,9 +723,9 @@
             {
                 "name": "Nature Management",
                 "uniques": [
-                    "[+2 Production] from every [Forest]",
-                    "[+2 Production] from every [Jungle]",
-                    "[+2 Production] from every [Marsh]"
+                    "[+1 Production] from every [Forest]",
+                    "[+1 Production] from every [Jungle]",
+                    "[+1 Production] from every [Marsh]"
                 ],
                 "row": 1,
                 "column": 4
@@ -753,6 +753,17 @@
                 ],
                 "row": 2,
                 "column": 3
+            },
+            {
+                "name": "Permaculture",
+                "requires": ["Nature Management"],
+                "uniques": [
+                    "[+1 Food] from every [Forest]",
+                    "[+1 Food] from every [Jungle]",
+                    "[+1 Food] from every [Marsh]"
+                ],
+                "row": 2,
+                "column": 5
             },
             {
                 "name": "Conservation Complete",
