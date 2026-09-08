@@ -707,7 +707,24 @@
         ],
         "policies": [
             {
-                ""
+                "name": "Clean Energy",
+                "uniques": [
+                    "[+2 Production] from every [Water Mill]",
+                    "[+2 Production] from every [Windmill]",
+                    "[+2 Production] from every [Hydro Plant]",
+                    "[+2 Production] from every [Nuclear Plant]",
+                    "[+2 Production] from every [Solar Plant]",
+                ],
+                "row": 1,
+                "column": 1
+            },
+            {
+                "name": "Ecotourism",
+                "uniques": [
+                    "[+3 Happiness, +3 Gold] from every [Natural Wonder]"
+                ],
+                "row": 1,
+                "column": 4
             }
         ]
     }
