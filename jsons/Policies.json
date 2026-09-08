@@ -491,15 +491,13 @@
     {
         "name": "Exploration",
         "era": "Renaissance era",
-        "priorities": [
-            {
+        "priorities": {
                 "Neutral": 5,
                 "Cultural": 5,
                 "Diplomatic": 5,
                 "Domination": 10,
                 "Scientific": 5
-            }
-        ],
+        },
         "uniques": [
             ""
         ],
