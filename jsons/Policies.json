@@ -824,7 +824,7 @@
                 "name": "Ecotourism",
                 "requires": ["Nature Management"],
                 "uniques": [
-                    "[+100]% [Yield] from every [Natural Wonder]",
+                    "[+100]% Yield from every [Natural Wonder]",
                     "[+1 Happiness, +1 Gold] from every [Natural Wonder]",
                     "[+2 Gold] from every [Atoll]",
                     "[+2 Gold] from every [Oasis]",
