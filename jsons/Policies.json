@@ -513,50 +513,23 @@
                     "[+1] Sight <for [Scout] units>"
                 ],
                 "row": 1,
-                "column": 2
-            },
-            {
-                "name": "Trade Unions2",
-                "uniques": [
-                    "[-33]% maintenance on road & railroads",
-                    "[+1 Gold] from every [Harbor]",
-                    "[+1 Gold] from every [Seaport]"
-                ],
-                "row": 1,
-                "column": 4
-            },
-            {
-                "name": "Merchant Navy2",
-                "uniques": ["[+3 Production] [in all coastal cities]"],
-                "requires": ["Naval Tradition2"],
-                "row": 2,
-                "column": 2
-            },
-            {
-                "name": "Mercantilism2",
-                "uniques": [
-                    "[Gold] cost of purchasing items in cities [-25]%",
-                    "[+1 Science] from every [Mint]",
-                    "[+1 Science] from every [Market]",
-                    "[+1 Science] from every [Bank]",
-                    "[+1 Science] from every [Stock Exchange]"
-                ],
-                "requires": ["Trade Unions2"],
-                "row": 2,
-                "column": 4
+                "column": 3
             },
             {
                 "name": "Colonialism",
                 "uniques": [
-                    "[+1] Movement <for [Settler] units>",
-                    "[+1] Sight <for [Settler] units>"],
-                "requires": ["Mercantilism2"],
-                "row": 3,
-                "column": 4
+                    "[+1] Movement <for [Settler] units> <on foreign continents>",
+                    "[+1] Sight <for [Settler] units> <on foreign continents>",
+                    "[+10]% growth [in all cities] <on foreign continents>"
+                ],
+                "requires": ["Naval Tradition2"],
+                "row": 2,
+                "column": 3
             },
             {
                 "name": "Exploration Complete",
                 "uniques": [
+                    "[+10]% [Gold] [in all cities] <on foreign continents>",
                     "May buy [Great Admiral] units for [1000] [Faith] [in all cities in which the majority religion is a major religion] at an increasing price ([500]) <starting from the [Industrial era]>",
                     "Get the leader title of [Doge [leaderName]]"
                 ]
