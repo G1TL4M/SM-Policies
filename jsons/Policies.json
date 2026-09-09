@@ -510,10 +510,19 @@
                 "uniques": [
                     "[+50]% Production when constructing [Scout] units [in capital]",
                     "[+1] Movement <for [Scout] units>",
-                    "[+1] Sight <for [Scout] units>"
+                    "[+1] Sight <for [Scout] units>",
+                    "Free [Scout] appears"
                 ],
                 "row": 1,
                 "column": 2
+            },
+            {
+                "name": "Trade Thing",
+                "uniques": [
+                    "[+10]% [Gold] from Trade Routes"
+                ],
+                "row": 1,
+                "column": 4
             },
             {
                 "name": "Colonialism",
@@ -522,7 +531,7 @@
                     "[+1] Sight <for [Settler] units> <on foreign continents>",
                     "[+10]% growth [in all cities] <on foreign continents>"
                 ],
-                "requires": ["Naval Tradition2"],
+                "requires": ["Naval Tradition2","Trade Thing"],
                 "row": 2,
                 "column": 3
             },
