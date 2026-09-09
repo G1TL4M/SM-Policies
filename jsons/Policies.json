@@ -506,7 +506,7 @@
         ],
         "policies": [
             {
-                "name": "Naval Tradition2",
+                "name": "Scout Thing",
                 "uniques": [
                     "[+50]% Production when constructing [Scout] units [in capital]",
                     "[+1] Movement <for [Scout] units>",
@@ -519,7 +519,8 @@
             {
                 "name": "Trade Thing",
                 "uniques": [
-                    "[+10]% [Gold] from Trade Routes"
+                    "[+10]% [Gold] from Trade Routes",
+                    "[+100]% Happiness from luxury resources gifted by City-States"
                 ],
                 "row": 1,
                 "column": 4
@@ -531,7 +532,7 @@
                     "[+1] Sight <for [Settler] units> <on foreign continents>",
                     "[+10]% growth [in all cities] <on foreign continents>"
                 ],
-                "requires": ["Naval Tradition2","Trade Thing"],
+                "requires": ["Scout Thing","Trade Thing"],
                 "row": 2,
                 "column": 3
             },
